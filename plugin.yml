@@ -1,0 +1,26 @@
+main: io.pixelinc.ranks.Ranks
+name: Simple-Ranks
+author: PixeL
+version: 1.0
+api-version: 1.15
+description: A simple wrapper over PEX for easier rank management.
+commands:
+    rank:
+        description: Manage or view user ranks
+    group:
+        description: Manage or view groups
+permissions:
+    rank.use:
+        description: Allow users to use the /rank command
+    rank.users.set:
+        description: Allow users to set ranks
+    rank.users.remove:
+        description: Allow users to remove user ranks
+    group.use:
+        description: Allow users to use the /group command
+    group.create:
+        description: Allow users to create groups
+    group.delete:
+        description: Allow users to delete groups
+    group.manage:
+        description: Allow users to set prefix/suffixes, and add/remove permissions
